@@ -1,0 +1,148 @@
+.sidebar {
+  flex-direction: row; 
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+  border: 1px solid #ffc600;
+  transition: width 0.3s ease;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.starwars-mb-logo{
+  display: none;
+}
+
+.starwars-logo {
+  width: 100px;
+  height: auto;
+  display: flex;
+}
+
+.sidebar-logo {
+  z-index: 1;
+  /* position: fixed; */
+  margin-top: 13px;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffc600;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  height: 100%;
+}
+
+.sidebar-menu-item {
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #ffc600;
+  transition: color 0.2s ease-in-out;
+}
+
+.sidebar-menu-item:hover {
+  color: #ffffff;
+}
+
+.sidebar-menu-item-text {
+  cursor: pointer;
+}
+
+.sidebar-menu-item-icon {
+  margin-left: 0.5rem;
+}
+
+.submenu-wrapper {
+  max-height: 100px;
+  overflow-y: auto;
+  width: 100%;
+  margin-left: 0.333rem;
+}
+
+.sidebar-submenu-item {
+  color: #e3d512;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.sidebar-submenu-item{
+  cursor: pointer;
+}
+
+.sidebar-submenu-item-text {
+  display: flex;
+  padding: 0;
+  margin-left: 17px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: flex;
+    align-items: stretch; ;
+    justify-content:space-between ;
+    flex-direction: row; /* Change the direction to column for stacking items */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:fit-content;
+    border:none;
+    z-index: 1000; /* Make sure it's on top of everything */
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .sidebar-menu {
+    display: none; /* Hide the menu items by default */
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background-color: #111;
+    width: 100%;
+  }
+
+  .sidebar-menu-item {
+    width: 100%;
+  }
+
+  .sidebar-logo {
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+
+  .sidebar-menu-item-text {
+    padding: 1rem;
+    text-align: center; /* Center the text */
+  }
+
+  .sidebar-menu-item:hover {
+    background-color: #ffc600;
+    color: #000000;
+  }
+
+  .sidebar.active {
+    width: 100%;
+    height: 100%; /* Adjust the width as needed */
+  }
+
+  .sidebar.active .sidebar-menu {
+    display: flex; /* Show the menu when sidebar is active */
+  }
+  .sidebar-toggle{
+    color: white;
+    margin-right: 0.3rem;
+  }
+}
+
+

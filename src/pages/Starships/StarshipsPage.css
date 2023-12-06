@@ -1,0 +1,78 @@
+.starship-container {
+  font-size: 11px;
+  display: flex;
+  color:#ffc600;
+  flex-direction: column;
+  background-color: #000; /* Dark background */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.starship-container button:hover {
+  background-color: rgb(64, 65, 59);
+  color: gold;
+  border: 1px solid #ffc600;
+}
+
+.starship-container button{
+  margin:0;
+  padding:0;
+  display:flex;
+  width: fit-content;
+  height:auto;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(255, 198, 0, 0.5); /* Yellow box shadow */
+}
+
+th, td {
+  border: 1px solid #d6d4ce; /* Yellow border */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffc600; /* Yellow color for text */
+}
+
+tr:nth-child(even) {
+  background-color: #4543436c; /* Light gray background */
+}
+
+tr:hover {
+  background-color: #85738c60; /* Slightly darker gray on hover */
+}
+
+.starship-links {
+  border: 1px solid #ffc600; /* Yellow border */
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(255, 198, 0, 0.5); /* Yellow box shadow */
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffc600; /* Yellow text */
+  border-radius: 8px;
+}
+
+.starship-links h5 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.starship-links img {
+  margin: 0.2rem;
+  width: 100%;
+  height:266px;
+}
+
+/* Adjust styling as needed */
