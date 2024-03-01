@@ -5,7 +5,7 @@ import Blank from "./pages/Blank";
 import Home from "./pages/Home/Home";
 import "./App.css";
 import MoviePage from "./pages/Movie/MoviePage";
-import Sidebar from "./components/Sidebar/SideBar";
+import Navbar from "./components/Sidebar/Navbar";
 import StarshipsPage from "./pages/Starships/StarshipsPage";
 import PeoplePage from "./pages/People/PeoplePage";
 import VehiclesPage from "./pages/Vehicles/VehiclesPage";
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="main-div">
       <div className="sidebar-div">
-        <Sidebar />
+        <Navbar />
       </div>
       <div className="container-div">
         <Routes>

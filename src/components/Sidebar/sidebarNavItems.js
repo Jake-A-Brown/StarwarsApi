@@ -1,8 +1,10 @@
 const sidebarNavItems = [
   {
-    to:'/home',
+    display:'Home',
+    icon: <i className="bx bx-chevron-down"></i>,
     subItems: [
       {
+        display: 'Home',
         to:'/home',
       }
     ]

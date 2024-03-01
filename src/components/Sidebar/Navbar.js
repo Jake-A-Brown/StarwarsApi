@@ -1,15 +1,18 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./SideBar.css";
 import sidebarNavItems from './sidebarNavItems.js';
 import starwarslogo from './Star_Wars_Logo.svg.png';
 
-const Sidebar = () => {
+const Navbar = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [openSubMenuIndex, setOpenSubMenuIndex] = useState(null);
   const [sidebarActive, setSidebarActive] = useState(false);
   const sidebarRef = useRef();
   const location = useLocation();
+  const [hamburgerDisplay, setHamburgerDisplay] = useState(true);
+  const [hamburgerCloseDisplay, setHamburgerCloseDisplay] = useState(true);
 
   useEffect(() => {
     const curPath = window.location.pathname.split("/")[1];
@@ -22,8 +25,21 @@ const Sidebar = () => {
   };
 
   const toggleSidebar = () => {
+    
+    if(hamburgerDisplay){
+    setHamburgerDisplay(!hamburgerDisplay);
+    }
+
+    if(!hamburgerDisplay){
+      setHamburgerDisplay(true);
+    }
+
+    if(!setHamburgerCloseDisplay){
+    setHamburgerCloseDisplay(hamburgerCloseDisplay); 
+    }
     setSidebarActive(!sidebarActive);
   };
+
 
   return (
     <div className={`sidebar ${sidebarActive ? 'active' : ''}`}>
@@ -34,22 +50,21 @@ const Sidebar = () => {
         </div>
       </Link>
 
-      <Link to="/home" className="sidebar-logo">
-        <div>
-          <img className="starwars-mb-logo" src={starwarslogo} alt="starwars logo" />
-        </div>
-      </Link>
-
           {/* Add a button/icon to toggle the sidebar */}
-          <div className="sidebar-toggle" onClick={toggleSidebar}> ☰ </div>
+          {/* Change this to disapear onclick using state*/}
+          {hamburgerDisplay && <div className="sidebar-toggle" onClick={toggleSidebar}> ☰ </div>}
 
       <div ref={sidebarRef} className="sidebar-menu">
 
-      <Link to="/home" className="sidebar-logo">
+        {/* Add a button/icon to toggle the sidebar */}
+           {/* Change this to disapear onclick using state*/}
+        {hamburgerCloseDisplay && <div className="sidebar-toggle" onClick={toggleSidebar}> {"\u2716"} </div>}
+        
+      {/* <Link to="/home" className="sidebar-logo">
         <div>
           <img className="starwars-mb-logo" src={starwarslogo} alt="starwars logo" />
         </div>
-      </Link>
+      </Link> */}
 
         {sidebarNavItems.map((item, index) => (
           <div key={index}>
@@ -89,4 +104,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Navbar;
