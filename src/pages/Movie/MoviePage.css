@@ -13,24 +13,32 @@
     color: goldenrod;
     font-size: 15px;
     height: 100%;
+    border-radius:  50px;
     width:auto;
     align-items: center;
     justify-content:center;
   }
 
-  .moviepage-container button:hover{
-    background-color: rgb(64, 65, 59);
+  .movie-buttons button:hover{
     color: gold;
+    transform: scale(1.07);
+  }
+
+  .film-button:hover{
+    background: linear-gradient(90deg, goldenrod, gold);
+    color: rgb(247, 246, 242);
     border: 1px solid #ffc600;
   }
 
-  .moviepage-container button{
-    margin:0;
-    padding:0;
+  .film-button{
+    background: linear-gradient(90deg, gold, goldenrod);
     display:flex;
-    width: fit-content;
-    height:auto;
-    color: #ffffff;
+    width: auto;
+    color: rgb(250, 250, 247);
+    border-radius: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content:center;
   }
   
   .movies-container {

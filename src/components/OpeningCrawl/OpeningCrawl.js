@@ -9,7 +9,7 @@ const OpeningCrawl = () => {
   const [filmData, setFilmData] = useState(null);
 
   const handleFilms = async (selectedFilm) => {
-    const response = await fetch(`https://swapi.dev/api/films/${selectedFilm}`);
+    const response = await fetch(`https://swapi.py4e.com/api/films/${selectedFilm}`);
     const data = await response.json();
     setFilmData(data);
   };
@@ -33,38 +33,44 @@ const OpeningCrawl = () => {
   }, [filmData]);
 
   return (
-    <div className="opening-crawl-container">
+    <div className="opening-crawl">
 
-        <audio id="opening-crawl-audio" preload="auto">
-          <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
-          <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
-        </audio>
-        <div style={{zIndex:'5000'}}>
+      <audio id="opening-crawl-audio" preload="auto">
+        <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
+        <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
+      </audio>
+      
+      <div className="opening-crawl-container">
+        {/* <br/> */}
 
-                <h3>Opening Crawl</h3>
+        {filmData && (
 
-              <select value={films} onChange={handleMovieChange}>
-                <option value="">Select a Film</option>
-                <option value="4">Episode 1</option>
-                <option value="5">Episode 2</option>
-                <option value="6">Episode 3</option>
-                <option value="1">Episode 4</option>
-                <option value="2">Episode 5</option>
-                <option value="3">Episode 6</option>
-              </select></div>
-              {/* <br/> */}
+          <div style={{ height: "400px", width: '70%', border:"solid, white" }}>
+            <Crawl
+              subTitle={filmData.title}
+              title={"Episode " + filmData.episode_id}
+              text={filmData.opening_crawl}
+            />
+          </div>
 
-          {filmData && (
+        )}
 
-              <Crawl>
-                <div className="crawl-div">  {/* 45 mb -- 75 desktop rem*/} 
-                <h1><h3>Star Wars</h3> Episode {filmData.episode_id}</h1>
-                <h3>{filmData.title}</h3>
-                <p>{filmData.opening_crawl}</p>
-                </div>
-              </Crawl>
-          )}
+<div style={{ zIndex: '5000' }}>
 
+<h3>Opening Crawl</h3>
+
+<select value={films} onChange={handleMovieChange}>
+  <option value="">Select a Film</option>
+  <option value="4">Episode 1</option>
+  <option value="5">Episode 2</option>
+  <option value="6">Episode 3</option>
+  <option value="1">Episode 4</option>
+  <option value="2">Episode 5</option>
+  <option value="3">Episode 6</option>
+</select>
+</div>
+
+      </div>
     </div>
   );
 };

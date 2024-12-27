@@ -409,6 +409,11 @@ const PeopleImage = [
         description:`Greeting Obi-Wan Kenobi during his search for General Grievous on windswept Utapau was Port Administrator Tion Medon. The tall, gaunt Utapaun initially feigned ignorance about Grievous' whereabouts, but then whispered a warning to Kenobi. Grievous was indeed on the planet, hiding on the tenth level of the sinkhole city with an army of thousands of battle droids.`,
         peopleImageSrc:'https://lumiere-a.akamaihd.net/v1/images/databank_tionmedon_01_169_bf78864d.jpeg',
     },
+    // {
+    //     name:'Rey',
+    //     description:`Greeting Obi-Wan Kenobi during his search for General Grievous on windswept Utapau was Port Administrator Tion Medon. The tall, gaunt Utapaun initially feigned ignorance about Grievous' whereabouts, but then whispered a warning to Kenobi. Grievous was indeed on the planet, hiding on the tenth level of the sinkhole city with an army of thousands of battle droids.`,
+    //     peopleImageSrc:'https://lumiere-a.akamaihd.net/v1/images/databank_tionmedon_01_169_bf78864d.jpeg',
+    // },
 ]
 
 export default PeopleImage;

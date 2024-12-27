@@ -16,10 +16,10 @@ const PeoplePage = () => {
   // for homeworld
   const [people, setPeople] = useState([]);
   const [nextPageUrl, setNextPageUrl] = useState(
-    `https://swapi.dev/api/people/?page=`
+    `https://swapi.py4e.com/api/people/?page=`
   );
   const [previousPageUrl, setPreviousPageUrl] = useState(
-    `https://swapi.dev/api/people/?page=`
+    `https://swapi.py4e.com/api/people/?page=`
   );
   const [nextBtn, setNextBtn] = useState(false);
   const [prevBtn, setPrevBtn] = useState(false);

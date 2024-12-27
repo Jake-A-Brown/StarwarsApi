@@ -14,10 +14,10 @@ const StarshipsPage = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [starships, setStarships] = useState([]);
   const [nextPageUrl, setNextPageUrl] = useState(
-    "https://swapi.dev/api/starships/"
+    "https://swapi.py4e.com/api/starships/"
   );
   const [previousPageUrl, setPreviousPageUrl] = useState(
-    "https://swapi.dev/api/starships/"
+    "https://swapi.py4e.com/api/starships/"
   );
   const [selectedStarships, setSelectedStarships] = useState(null);
 

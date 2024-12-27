@@ -13,10 +13,10 @@ const SpeciesPage = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [species, setSpecies] = useState([]);
   const [nextPageUrl, setNextPageUrl] = useState(
-    "https://swapi.dev/api/species/"
+    "https://swapi.py4e.com/api/species/"
   );
   const [previousPageUrl, setPreviousPageUrl] = useState(
-    "https://swapi.dev/api/species/"
+    "https://swapi.py4e.com/api/species/"
   );
   const [selectedSpecies, setSelectedSpecies] = useState(null);
 

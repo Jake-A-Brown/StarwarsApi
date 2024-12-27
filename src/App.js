@@ -19,7 +19,7 @@ import VehicleTable from "./pages/Vehicles/VehicleTable";
 function App() {
   return (
     <div className="main-div">
-      <div className="sidebar-div">
+      <div className="navbar-div">
         <Navbar />
       </div>
       <div className="container-div">

@@ -8,10 +8,10 @@ const VehicleTable = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [vehicles, setVehicles] = useState([]);
   const [nextPageUrl, setNextPageUrl] = useState(
-    "https://swapi.dev/api/vehicles/"
+    "https://swapi.py4e.com/api/vehicles/"
   );
   const [previousPageUrl, setPreviousPageUrl] = useState(
-    "https://swapi.dev/api/vehicles/"
+    "https://swapi.py4e.com/api/vehicles/"
   );
   const [nextBtn, setNextBtn] = useState(false);
   const [prevBtn, setPrevBtn] = useState(false);

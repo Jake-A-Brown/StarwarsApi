@@ -36,7 +36,7 @@ const MoviePage = () => {
       setIsFetch(false);
       setLoading(true);
 
-      const response = await fetch("https://swapi.dev/api/films/");
+      const response = await fetch("http://swapi.py4e.com/api/films/");
       const data = await response.json();
 
       setMovies(data.results);
@@ -261,7 +261,7 @@ const MoviePage = () => {
 
   return (
     <div className="moviepage-container">
-      {isFetch && <button onClick={handleMovies}>Films of the Force</button>}
+      {isFetch && <button className="film-button" onClick={handleMovies}>Films of the Force</button>}
       {loading && (
         <div className="loading-bar">
           <Loader />

@@ -1,0 +1,78 @@
+Date : 2024-09-05 20:32:59
+Directory : c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src
+Total : 38 files,  5139 codes, 341 comments, 774 blanks, all 6254 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         25 |      3,791 |        328 |        515 |      4,634 |
+| CSS        |         13 |      1,348 |         13 |        259 |      1,620 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |         38 |      5,139 |        341 |        774 |      6,254 |
+| . (Files)                                                                                                        |          4 |         84 |          1 |         16 |        101 |
+| components                                                                                                       |          9 |      1,111 |         22 |        212 |      1,345 |
+| components\Loader                                                                                                |          2 |        643 |          0 |        126 |        769 |
+| components\OpeningCrawl                                                                                          |          2 |         80 |          4 |         23 |        107 |
+| components\SearchBar                                                                                             |          2 |         88 |          2 |         15 |        105 |
+| components\Sidebar                                                                                               |          3 |        300 |         16 |         48 |        364 |
+| pages                                                                                                            |         25 |      3,944 |        318 |        546 |      4,808 |
+| pages (Files)                                                                                                    |          1 |          7 |          0 |          2 |          9 |
+| pages\Home                                                                                                       |          2 |        207 |          1 |         32 |        240 |
+| pages\Movie                                                                                                      |          3 |        434 |          8 |         80 |        522 |
+| pages\People                                                                                                     |          3 |        875 |         20 |         96 |        991 |
+| pages\Planet                                                                                                     |          5 |        634 |        269 |        121 |      1,024 |
+| pages\Species                                                                                                    |          3 |        508 |          9 |         67 |        584 |
+| pages\Starships                                                                                                  |          4 |        636 |          6 |         73 |        715 |
+| pages\Vehicles                                                                                                   |          4 |        643 |          5 |         75 |        723 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                         | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\App.css                                  | CSS        |         12 |          0 |          4 |         16 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\App.js                                   | JavaScript |         44 |          0 |          3 |         47 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\Loader\Loader.css             | CSS        |        611 |          0 |        120 |        731 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\Loader\Loader.js              | JavaScript |         32 |          0 |          6 |         38 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\OpeningCrawl\OpeningCrawl.css | CSS        |         23 |          0 |          6 |         29 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\OpeningCrawl\OpeningCrawl.js  | JavaScript |         57 |          4 |         17 |         78 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\SearchBar\SearchBar.css       | CSS        |         51 |          1 |          9 |         61 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\SearchBar\SearchBar.js        | JavaScript |         37 |          1 |          6 |         44 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\Sidebar\Navbar.js             | JavaScript |         82 |          4 |         22 |        108 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\Sidebar\SideBar.css           | CSS        |        123 |          2 |         24 |        149 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\components\Sidebar\sidebarNavItems.js    | JavaScript |         95 |         10 |          2 |        107 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\index.css                                | CSS        |         17 |          1 |          6 |         24 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\index.js                                 | JavaScript |         11 |          0 |          3 |         14 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Blank.js                           | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Home\Home.css                      | CSS        |         54 |          1 |         10 |         65 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Home\Home.js                       | JavaScript |        153 |          0 |         22 |        175 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Movie\MovieImage.js                | JavaScript |         35 |          0 |          1 |         36 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Movie\MoviePage.css                | CSS        |         69 |          1 |         11 |         81 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Movie\MoviePage.js                 | JavaScript |        330 |          7 |         68 |        405 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\People\PeopleImage.js              | JavaScript |        413 |          0 |          1 |        414 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\People\PeoplePage.css              | CSS        |         75 |          1 |         14 |         90 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\People\PeoplePage.js               | JavaScript |        387 |         19 |         81 |        487 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Planet\PlanetImage.js              | JavaScript |        306 |          1 |          1 |        308 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Planet\PlanetLinks.js              | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Planet\PlanetPage.js               | JavaScript |        230 |          8 |         56 |        294 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Planet\Planets.css                 | CSS        |         91 |          3 |         15 |        109 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Planet\WookiePlanet.js             | JavaScript |          0 |        257 |         47 |        304 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Species\SpeciesImage.js            | JavaScript |        188 |          0 |          1 |        189 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Species\SpeciesPage.css            | CSS        |         92 |          1 |         16 |        109 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Species\SpeciesPage.js             | JavaScript |        228 |          8 |         50 |        286 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Starships\StarshipImage.js         | JavaScript |        184 |          0 |          2 |        186 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Starships\StarshipTable.js         | JavaScript |        154 |          2 |         16 |        172 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Starships\StarshipsPage.css        | CSS        |         66 |          1 |         12 |         79 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Starships\StarshipsPage.js         | JavaScript |        232 |          3 |         43 |        278 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Vehicles\VehicleImage.js           | JavaScript |        199 |          0 |          2 |        201 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Vehicles\VehiclePage.css           | CSS        |         64 |          1 |         12 |         77 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Vehicles\VehicleTable.js           | JavaScript |        147 |          1 |         16 |        164 |
+| c:\Users\loucr\OneDrive\Desktop\React-Projects\StarWarsApi\starwars\src\pages\Vehicles\VehiclesPage.js           | JavaScript |        233 |          3 |         45 |        281 |
+| Total                                                                                                            |            |      5,139 |        341 |        774 |      6,254 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

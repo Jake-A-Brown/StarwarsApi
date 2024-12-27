@@ -12,10 +12,10 @@ const PlanetPage = () => {
   const [currentPage, setCurrentPage] = useState(null);
   const [planets, setPlanets] = useState([]);
   const [nextPageUrl, setNextPageUrl] = useState(
-    `https://swapi.dev/api/planets/`
+    `https://swapi.py4e.com/api/planets/`
   );
   const [previousPageUrl, setPreviousPageUrl] = useState(
-    `https://swapi.dev/api/planets/`
+    `https://swapi.py4e.com/api/planets/`
   );
   const [selectedPlanet, setSelectedPlanet] = useState(null);
 

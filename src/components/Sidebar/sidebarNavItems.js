@@ -35,7 +35,7 @@ const sidebarNavItems = [
     subItems: [
       {
         display:"Characters",
-        to:`/people/`,
+        to:`/people`,
       },
       {
         // display:"Character Information",
