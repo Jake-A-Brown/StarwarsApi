@@ -36,7 +36,7 @@ const MoviePage = () => {
       setIsFetch(false);
       setLoading(true);
 
-      const response = await fetch("http://swapi.py4e.com/api/films/");
+      const response = await fetch("https://swapi.py4e.com/api/films/");
       const data = await response.json();
 
       setMovies(data.results);
